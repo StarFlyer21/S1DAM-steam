@@ -122,8 +122,11 @@ main h6 {
 a {
     color: white;
 }
-.rounded{
+.rounded-1{
     border-radius: 6px;
+}
+.rounded-2{
+    border-radius: 12px;
 }
 footer {
     margin-top: 140px;
