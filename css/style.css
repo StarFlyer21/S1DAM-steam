@@ -1,0 +1,105 @@
+@font-face {
+    /*Con esto agregamos nuestra fuente descargada*/
+    font-family: "motiva";
+    src: url(../font/MotivaSans-Regular.ttf);
+}
+
+body {
+    background-image: url(../img/fondo.jpeg); /*Le colocamos la foto y el cover es para que se adapte al contenedor solo si es una foto de fondo*/
+    background-size: cover;                   /*Sino le pondermos simplemente width 100%*/
+    background-repeat: no-repeat; /*Si la foto es muy pequeña rellena toda la pantalla con esa foto*/
+    margin: 0;
+    color: white;
+    font-family: "motiva";
+}
+
+* {
+    /*Esta regla es para que el elemento se ajuste al padding y al margin de la caja*/
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end{
+    text-align: right;
+}
+
+.row {
+    /*esta regla es para que el contenido salga uno al lado del otro en vez de uno debajo del otro*/
+    display: flex;
+}
+
+.justify-content-center {
+    /*Aquí indicamos como queremos que se ponga el contenido en horizontal*/
+    justify-content: center;
+}
+
+.justify-content-between {
+    /*Aquí indicamos como queremos que se ponga el contenido, con space between hacemos que un item se ponga a la derecha y otro a la izquierda*/
+    justify-content: space-between;
+}
+
+.align-items-center {
+    /*Esta regla hace que los elementos se centren en la posición que queramos en el eje que estemos usando*/
+    align-items: center;
+}
+
+header {
+    background-color: #181d23;
+    padding: 8px 0 20px 0;
+}
+
+nav ul, nav li { 
+    padding: 0;
+    margin: 0;
+}  
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 6px;
+}
+
+.bg-green {
+    background-color: #6c9018;
+}
+
+.text-blue {
+    color: #4396f5;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-small {
+    font-size: 11px;
+}
+/*Auto reparte las proporciones entre lo que estemos definiendo*/
+main {
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+.bg-dark {
+    background-color: #181d23;
+    padding: 50px;
+}
+.col-60 {
+    width: 60%;
+}
+.col-30 {
+    width: 30%;
+}
+.box-form{
+    width: 100%;
+    background-color: #32353c;
+    padding: 14px 0;
+    border: 0;
+}
