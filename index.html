@@ -42,27 +42,70 @@
             <div class="col-60">
                 <form action="#" method="post">
                     <!--Cuando haces un formulario si o si form:post o form:get, mejor form:post-->
-                    <h6>INICIA SESIÓN CON TU NOMBRE DE CUENTA</h6>
+                    <h6 class="text-blue">INICIA SESIÓN CON TU NOMBRE DE CUENTA</h6>
                     <input type="text" name="nombre" id="" class="box-form">
                     <h6>CONTRASEÑA</h6>
                     <input type="password" name="clave" id="" class="box-form">
                     <input type="checkbox" name="recuerda" id="" checked>Recordarme
-                    <p>
-                        <input type="submit" value="Iniciar sesión" class="btn bnt-blue">
+                    <p class="text-center">
+                        <input type="submit" value="Iniciar sesión" class="btn btn-blue">
                     </p>
-                    <p>
-                        <h6>Ayuda, no puedo iniciar sesión</h6>
+                    <br>
+                    <p class="text-center text-small">
+                        <a href="#">Ayuda, no puedo iniciar sesión</a>
                     </p>
                 </form>
             </div>
             <div class="col-30">
-                <h6>O BIEN CON UN CÓDIGO QR</h6>
-                <img src="img/qr.jpg" alt="" width="100%">
-                <p>Usa al aplicación steam mobile para iniciar sesión con un codigo</p>
+                <h6 class="text-blue">O BIEN CON UN CÓDIGO QR</h6>
+                <img src="img/qr.jpg" alt="" width="100%" class="rounded">
+                <p class="text-center text-small text-gray">Usa al aplicación steam mobile para iniciar sesión con un codigo QR
+                </p>
             </div>
         </div>
     </main>
-    <footer></footer>
+
+    <footer class="bg-dark">
+        <section>
+            <div class="row justify-content-center">
+                <div class="col-30">
+                    <h2 class="text-center">¿Tu primera vez en Steam?</h2>
+                    <p class="text-center">
+                        <button class="btn btn-blue">Crea una cuenta</button>
+                    </p>
+                </div>
+                <div class="col-30">
+                    <p class="text-center text-gray">
+                        Es gratis y muy fácil. Descubre miles de
+                        juegos para jugar con millones de amigos
+                        nuevos. <a href="#" class="text-gray">Más información acerca de Steam</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!--nav>ul>li*15-->
+            <nav class="text-center text-gray">
+                <ul>
+                    <li>Acerca de Valve</li>
+                    <li>|</li>
+                    <li>Empleo</li>
+                    <li>|</li>
+                    <li>Steamworks</li>
+                    <li>|</li>
+                    <li>Distribución de steam</li>
+                    <li>|</li>
+                    <li>Soporte</li>
+                    <li>|</li>
+                    <li>Tarjetas regalo</li>
+                    <li>|</li>
+                    <li>Steam</li>
+                    <li>|</li>
+                    <li>@steam</li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
 </body>
 
 </html>

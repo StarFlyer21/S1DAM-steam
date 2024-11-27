@@ -91,7 +91,7 @@ main {
     background-color: #181d23;
 }
 .col-60 {
-    width: 60%;
+    width: 65%;
 }
 .col-30 {
     width: 30%;
@@ -116,5 +116,18 @@ main h6 {
     padding: 8px 50px;
     color: white;
     background-image: linear-gradient(90deg, rgb(6, 191, 255) 0%, rgb(45, 115, 255) 100%);
-
+    font-size: 20px;
+    width: 60%;
+}
+a {
+    color: white;
+}
+.rounded{
+    border-radius: 6px;
+}
+footer {
+    margin-top: 140px;
+}
+.text-gray{
+    color: #b6b6b6;
 }
