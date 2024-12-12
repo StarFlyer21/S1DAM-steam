@@ -46,6 +46,10 @@ body {
     justify-content: space-between;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
 .align-items-center {
     /*Esta regla hace que los elementos se centren en la posición que queramos en el eje que estemos usando*/
     align-items: center;
